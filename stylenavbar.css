@@ -1,0 +1,260 @@
+
+
+
+body{
+    background-color: #c5ccdc;
+    font-family: 'Nunito Sans', sans-serif;
+}
+/* Navigation*/
+.navbar {
+    overflow: hidden;
+    background-color: #c5ccdc;
+    font-family: Roboto Serif;
+    border: 10px solid #e6e1d4;
+  }
+  .logo{
+    height: 55px;
+    width: 55px;
+    padding-top: 4px;
+    padding-left: 4px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 17px;
+    font-family: Roboto Serif;
+    color: rgb(4, 4, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  #responsive:hover{
+    background-color: #c5ccdc;
+  }
+  .dropdown {
+    display: inline-block;
+    text-align: right;
+    overflow: hidden;
+    margin-right: 60px;
+    margin-top: 0px;
+    padding-top: 0px;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 17px;
+    font-family: Roboto Serif; 
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; 
+    margin: 0; 
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #e6e1d4;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e6e1d4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #e6e1d4;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.searchbar{
+    float: right;
+    padding-top: 20px;
+    padding-right: 5px;
+}
+ /* Forside - side 1*/ 
+.front_page{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+.front_page_intro{
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}  
+.front_page_intro h3{
+    font-family: Roboto Serif;
+}
+.header{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-family: Roboto Serif;
+}
+.front_page_picture{
+    width: 800px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+/* Side 3*/
+.collage{
+    display: block;
+    height: 300px;
+    width: 600px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Side 4*/
+.drawing{
+    display: flex;
+    height: 150px;
+    width: 170px;
+    float: right; 
+}
+/* Side 2*/
+.Mølleparken{
+    display: block;
+    height: 400px;
+    width: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 30px;
+   padding-top: 20px;
+}
+.bagagerumsmarked{
+    border: solid 5px #e6e1d4;
+    height: 100px;
+    width: 200px;
+    margin-right: 90px;
+    margin-top: 200px;
+   float: right;
+}
+.bagagerum_link{
+    margin-right: -180px;
+    margin-top: 320px;
+   float: right;
+   text-decoration: none;
+}
+.Habengutmarked{
+    border: solid 5px #e6e1d4;
+    height: 100px;
+    width: 200px;
+    float: right; 
+   margin-right: -213px;
+   margin-top: 400px;
+}
+.Habengut_link{
+    margin-right: -168px;
+    margin-top: 520px;
+   float: right;
+}
+.Ingerslev{
+    border: solid 5px #e6e1d4;
+    height: 100px;
+    width: 200px;
+    margin-right: -200px;
+    margin-top: 600px;
+    float: right;
+}
+.Ingerslev_link{
+    margin-right: -80px;
+    margin-top: 720px;
+   float: right;
+}
+/* Artikel layout */
+  .article{
+    border: solid #e6e1d4;
+    background-color: #e6e1d4;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    margin-left: 350px;
+    margin-right: 350px;
+    font-family: Nunito Sans;
+  }
+  h3{
+    font-family: Roboto Serif;
+  }
+ 
+ .article ul{
+    padding-left: 35px;
+    padding-right: 35px;
+ } 
+  *{
+    padding: 0;
+    margin: 0;
+}
+/*Footer*/
+  .footer-container{
+    background-color: #e6e1d4;
+    margin-top: auto;
+    
+  }
+  .footer{
+    width: 80%;
+    height: 40vh;
+    background-color: #e6e1d4;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-family: Nunito Sans
+}
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    margin-top: 15px;
+}
+.footer-heading h2{
+    margin-top: 5px;
+    margin-bottom: 2rem;
+    margin-top: 15px;
+
+} 
+.footer-heading a{
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0,5rem;
+}
+.footer-heading a:hover{
+    color: #c5ccdc;
+    transition: 0,3s ease-out;
+
+}
+.footer-email-form h2{
+margin-bottom: 2rem;
+margin-top: 30px;
+
+}
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+} 
