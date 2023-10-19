@@ -1,12 +1,13 @@
 
 
-* {
-    
-}
+
 
 body{
     background-color: #c5ccdc;
     font-family: 'Nunito Sans', sans-serif;
+}
+h4{
+    font-family: Roboto Serif;
 }
 /* Navigation*/
 .navbar {
@@ -155,7 +156,7 @@ body{
    float: right;
 }
 .bagagerum_link{
-    margin-right: -180px;
+    margin-right: -185px;
     margin-top: 320px;
    float: right;
    text-decoration: none;
@@ -177,12 +178,12 @@ body{
     border: solid 5px #e6e1d4;
     height: 100px;
     width: 200px;
-    margin-right: -200px;
+    margin-right: -218px;
     margin-top: 600px;
     float: right;
 }
 .Ingerslev_link{
-    margin-right: -80px;
+    margin-right: -100px;
     margin-top: 720px;
    float: right;
 }
@@ -202,7 +203,6 @@ body{
   h3{
     font-family: Roboto Serif;
   }
- 
  .article ul{
     padding-left: 35px;
     padding-right: 35px;
